@@ -10,7 +10,7 @@ def start(update, context):
 
 if __name__ == '__main__':
 
-    updater = Updater(token='TOKEN_FROM_BOTFATHER', use_context=True)
+    updater = Updater(token='1716330260:AAGjNnHJJDSaf4T-WaAQUhzNAcriGSz5ymQ', use_context=True)
     
     dp = updater.dispatcher #dispatcher é encarregado de lidar com os comandos que entra no updater
 
