@@ -1,2 +1,2 @@
 # Chatbot_Telegram
-Exemplo de bot para o telegram
+Exemplo simples de bot para o telegram
