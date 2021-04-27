@@ -10,7 +10,9 @@ def start(update, context):
 
 if __name__ == '__main__':
 
+
     updater = Updater(token='TOKEN_FROM_BOTFATHER', use_context=True)
+
     
     dp = updater.dispatcher #dispatcher é encarregado de lidar com os comandos que entra no updater
 
@@ -19,4 +21,6 @@ if __name__ == '__main__':
 
     #Permite que o bot se ative, cria um ciclo infinito para permitir esses comandos
     updater.start_polling()
+
     updater.idle()
+
